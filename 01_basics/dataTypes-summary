@@ -35,3 +35,23 @@ const myFunction = function(){
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//  Stack(Primitive) , Heap(Non-Primitive)
+
+// In stack memory jo bhi primitive datatype hota h vo store hota hai or
+// jobhi variable declare kiya hai uska copy milta hai or
+// heap me reference milta hai original value ka
+
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "chai"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shresth@google.com"  // heap me change hogyi value so userOne me bhi change hojayegi
+console.log(userOne.email);  
