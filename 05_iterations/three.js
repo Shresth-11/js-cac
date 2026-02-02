@@ -37,7 +37,7 @@ const myObject = {
     'game2' : 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {   //maps are iterable , objects are not iterable there is another way to iterate over an object
+// for (const [key, value] of myObject) {   //maps are iterable , objects are not iterable there is another way to iterate over an object , we use for-in loop to do so
 //     console.log(key, ':_', value);
     
 // }
