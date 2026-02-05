@@ -24,11 +24,11 @@ map.set('IN',"India")
 
 
 
-// console.log(map);
+console.log(map);
 
 
 for (const [key, value] of map) {
-    // console.log(key, ':-', value);
+    console.log(key, ':-', value);
 }
 
 
@@ -37,7 +37,7 @@ const myObject = {
     'game2' : 'Spiderman'
 }
 
-// for (const [key, value] of myObject) {   //maps are iterable , objects are not iterable there is another way to iterate over an object , we use for-in loop to do so
+// for (const [key, value] of myObject) {   //(maps are iterable)doubt , objects are not iterable there is another way to iterate over an object , we use for-in loop to do so
 //     console.log(key, ':_', value);
     
 // }
