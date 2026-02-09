@@ -45,6 +45,8 @@
     //     e.stopPropagation()
     //     console.log("google clicked");
     // }, false)
+
+    /* false is default and it leads to event bubbling (bottom to tp) and if true then event capturing occurs which goes from top to bootom*/
    
     
     document.querySelector('#images').addEventListener('click', function(e){
